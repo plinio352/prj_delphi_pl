@@ -1,0 +1,6 @@
+Questão 1 e 2:
+Tempo=04:26:23
+
+Questão 3:
+	Médio - Tempo gasto para pensar em com adapidar o requisito ao desemvolvimento.
+Tempo=00:01:00

@@ -1,0 +1,71 @@
+1- Avalie se as afirmações são verdadeiras ou falsas. Sendo que A=10, B=2 e C=8.
+a) (A+B) = C (F )
+b) (A-C) = B (v )
+c) (A*C) < B (F )
+d) (A*B) = A (F )
+e) (A-B) = C (V )
+Tempo=00:01:19
+
+2- Avalie se as afirmações são verdadeiras ou falsas.
+X = 2, Y=3 e Z=5.
+a) (((X+Y)>=Z) and (X>Y)) (V )
+b) (((X+Y)>=Z) or (X>Y)) (V )
+c) ((Z<Y) and ((Z-Y)=X)) (F )
+d) ((X=Y) or (X<Y)) (V )
+e) (((X+Y)=Z) and (Z>Y) and ((X-Y)=Z)) (F )
+Tempo=00:04:03
+
+3- Mostre as saídas para as devidas entradas:
+a=0
+x=b/a
+Entrada 1: a=3 e b=4
+Saida   1: Não há raizes reais
+Entrada 2: a=0 e b=3
+Saida   2: Não há raizes reais
+Entrada 3: a=3 e b=9
+Saida   3: Não há raizes reais
+Tempo=00:07:08
+
+4- Mostre as saídas para as devidas entradas:
+Entrada 1: n=5 e m=3
+Saida   1: 15
+Entrada 2: n=0 e m=100001
+Saida   2: 0
+Entrada 3: n=3 e m=15
+Saida   3: 45
+Tempo=00:05:40
+
+5- Escreva um algoritmo que leia 400 números e imprima o maior, o menor e a
+média dos números lidos.
+	principal()
+		menor(parametro[0..399])();
+		maior(parametro[0..399])();
+		média(parametro[0..399])();
+		n[0..399];
+		
+		i = 0;
+		enquanto i < 400 faça
+			ler n[i];
+			i = i + 1;
+		fim do enquanto
+
+		imprima menor(n);
+		imprima maior(n);
+		imprima média(n);
+	fim de principal
+Tempo=00:13:02
+
+6- Escreva um algoritmo que leia seis números e os imprima em ordem crescente.
+	principal()
+		Ordena_Crescente(parametro[0..5])();
+		n[0..5];
+		
+		i = 0;
+		enquanto i < 6 faça
+			ler n[i];
+			i = i + 1;
+		fim do enquanto
+
+		imprima Ordena_Crescente(n);
+	fim de principal
+Tempo=00:02:25

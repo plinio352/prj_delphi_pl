@@ -1,0 +1,4 @@
+Server Name: 	127.0.0.1	
+Database Name: 	dsPostgre00
+User Name: 		postgres
+Password: 		7737plin
